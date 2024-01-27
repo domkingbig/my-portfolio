@@ -63,9 +63,9 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-5 mt-4 place-self-center lg:text-xl"
         >
-          <div className="relative h-[250px]  w-[250px] rounded-full bg-[#181818] lg:h-[400px] lg:w-[400px]">
+          <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/137.png"
+              src="/images/hero-image.png"
               alt="hero-image"
               className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform"
               width={300}
