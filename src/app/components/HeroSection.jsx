@@ -13,7 +13,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
-          className="col-span-8 place-self-center justify-self-start text-center sm:text-left"
+          className="col-span-7 place-self-center justify-self-start text-center sm:text-left"
         >
           <h1 className="mb-4 text-4xl font-extrabold text-white sm:text-5xl lg:text-6xl lg:leading-normal ">
             <span className="bg-gradient-to-r from-primary-400 to-secondary-600 bg-clip-text text-transparent">
@@ -21,23 +21,18 @@ const HeroSection = () => {
             </span>
             <br />
             <TypeAnimation
-              sequence={[
-                // Same substring at the start will only be typed out once, initially
+              sequence={[                
                 "Phạm Huy Tú",
-                1000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Web Developer",
-                1000,
-                // "zzz",
-                // 1000,
-                // "sss",
-                // 1000,
+                1000, 
+                "Senior Frontend Developer",
+                1000,                
               ]}
               wrapper="span"
               speed={50}
               repeat={Infinity}
             />
           </h1>
-          <p className="mb-6 text-base text-[#ADB7BE] sm:text-lg lg:text-xl ">
+          <p className="mb-6 text-base text-[#ADB7BE] sm:text-lg lg:text-xl">
           More than 4 years as a Web developer in both BE and FE side, heading to become a fullstack dev and get more knowledge about how a website is working and make it performance better and better!
           </p>
           <div>

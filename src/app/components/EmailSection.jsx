@@ -15,11 +15,8 @@ const EmailSection = () => {
     const JSONdata = JSON.stringify(data);
     const endpoint = "/api/send";
 
-    //form the request sending data to server
     const options = {
-      //method is POST because data is sending
       method: "POST",
-      //tell server json is sending
       headers: {
         "Content-Type": "application/json",
       },
@@ -34,7 +31,7 @@ const EmailSection = () => {
     }
   };
   return (
-    <section className="relative my-12 grid gap-4 py-24 md:my-12 md:grid-cols-2 " id="contact">
+    <section className="relative my-12 grid gap-4 py-24 md:my-12 md:grid-cols-2 z-0" id="contact">
       <div className="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-3/4 left-4 transform -translate-x-1/2 -translate-1/2"></div>
       <div className="z-10">
         <h5 className="my-2 text-xl font-bold text-white">{""}Let's Connect</h5>
@@ -43,10 +40,7 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I'll try my
           best to get back to you soon!
         </p>
-        <div className="socials flex flex-row gap-2">
-          {/* <Link href={"github.com"}>
-            <Image src={LinkedinIcon} alt="Linkedin Icon"></Image>
-          </Link> */}
+        <div className="socials flex flex-row gap-2">          
           <Link href="https://www.linkedin.com/in/huytuwork/">
             <Image src={LinkedinIcon} alt="Linkedin Icon"></Image>
           </Link>
@@ -60,7 +54,7 @@ const EmailSection = () => {
               className=" mb-2 block text-sm font-medium text-white "
             >
               {" "}
-              Your email
+              My email
             </label>
 
             <input
@@ -68,7 +62,7 @@ const EmailSection = () => {
               type="email"
               id="email"
               required
-              placeholder="mr/miss@gmail.com"
+              placeholder="huytuwork@gmail.com"
               className="block w-full rounded-lg border border-[#33353F] bg-[#18191E] p-2.5 text-sm text-gray-100 placeholder-[#9CA2A9]"
             />
           </div>
@@ -107,13 +101,13 @@ const EmailSection = () => {
               className="block w-full rounded-lg border border-[#33353F] bg-[#18191E] p-2.5 text-sm text-gray-100 placeholder:text-[#9CA2A9]"
             />
           </div>
-          <button
+          {/* <button
             type="submit"
             className="w-full rounded-lg bg-primary-500 px-5 py-2.5 font-medium text-white hover:bg-primary-600"
           >
             {" "}
             Send Message
-          </button>
+          </button> */}
           {emailSubmmited && (
             <p className="mt-2 text-sm text-green-500">
               Email was sent successfully!
