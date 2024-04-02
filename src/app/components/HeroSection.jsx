@@ -33,7 +33,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="mb-6 text-base text-[#ADB7BE] sm:text-lg lg:text-xl">
-          More than 4 years as a Web developer in both BE and FE side, heading to become a fullstack dev and get more knowledge about how a website is working and make it performance better and better!
+          More than 5 years as a Web developer in both BE and FE side, heading to become a fullstack dev and get more knowledge about how a website is working and make it performance better and better!
           </p>
           <div>
             <Link
@@ -43,7 +43,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/"
+              href="https://drive.google.com/file/d/1kOXmBNtfyyQLVwDKkAe_fSvgL7w0VVSJ/view?usp=sharing"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">

@@ -14,6 +14,7 @@ const TAB_DATA = [
         <li>CSS</li>
         <li>Redux</li>
         <li>Java</li>
+        <li>Team leadership</li>
       </ul>
     ),
   },

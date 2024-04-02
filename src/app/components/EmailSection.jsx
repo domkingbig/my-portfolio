@@ -51,22 +51,19 @@ const EmailSection = () => {
           <div className="mb-6">
             <label
               htmlFor="email"
-              className=" mb-2 block text-sm font-medium text-white "
+              className=" mb-2 block text-xl font-bold text-white "
             >
               {" "}
               My email
             </label>
-
-            <input
-              name="email"
-              type="email"
-              id="email"
-              required
-              placeholder="huytuwork@gmail.com"
-              className="block w-full rounded-lg border border-[#33353F] bg-[#18191E] p-2.5 text-sm text-gray-100 placeholder-[#9CA2A9]"
-            />
+            <div className="w-600 h-12 border border-primary-500 rounded p-2">
+              <div className="flex items-center h-full ">                
+                <span className="text-white">huytuwork@gmail.com</span>
+              </div>
+            </div>
+            
           </div>
-          <div className="mb-6">
+          {/* <div className="mb-6">
             <label
               htmlFor="email"
               className=" mb-2 block text-sm font-medium text-white "
@@ -74,17 +71,15 @@ const EmailSection = () => {
               {" "}
               Subject
             </label>
+            <div className="w-600 h-12 border border-primary-500 rounded p-2">
+              <div className="flex items-center h-full ">                
+                <span className="text-white">huytuwork@gmail.com</span>
+              </div>
+            </div>
 
-            <input
-              name="subject"
-              type="text"
-              id="subject"
-              required
-              placeholder="Front end developer hiring"
-              className="block w-full rounded-lg border border-[#33353F] bg-[#18191E] p-2.5 text-sm text-gray-100 placeholder:text-[#9CA2A9]"
-            />
-          </div>
-          <div className="mb-6">
+            
+          </div> */}
+          {/* <div className="mb-6">
             <label
               htmlFor="message"
               className=" mb-2 block text-sm font-medium text-white "
@@ -92,15 +87,14 @@ const EmailSection = () => {
               {" "}
               Message
             </label>
+            <div className="w-600 h-12 border border-primary-500 rounded p-2">
+              <div className="flex items-center h-full ">                
+                <span className="text-white">huytuwork@gmail.com</span>
+              </div>
+            </div>
 
-            <textarea
-              name="message"
-              id="message"
-              required
-              placeholder="Let's talk about new position on..."
-              className="block w-full rounded-lg border border-[#33353F] bg-[#18191E] p-2.5 text-sm text-gray-100 placeholder:text-[#9CA2A9]"
-            />
-          </div>
+           
+          </div> */}
           {/* <button
             type="submit"
             className="w-full rounded-lg bg-primary-500 px-5 py-2.5 font-medium text-white hover:bg-primary-600"
