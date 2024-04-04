@@ -33,7 +33,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="mb-6 text-base text-[#ADB7BE] sm:text-lg lg:text-xl">
-          More than 5 years as a Web developer in both BE and FE side, heading to become a fullstack dev and get more knowledge about how a website is working and make it performance better and better!
+          More than 5 years as a Web developer in both BE and FE side, heading to become a full-stack dev and get more knowledge about how a website works and make its performance better and better!
           </p>
           <div>
             <Link
